@@ -17,6 +17,6 @@ if st.button("Submit"):
         st.success(f"Hello, {name}! You are {age} years old. Please proceed !")
       elif age <= 80:
         st.success(f"Hello, {name}! You are {age} years old. Still Young !")
-      else:
+    else:
         st.warning("Please update your KYC details as you have crossed the threshold age of 80")
         
